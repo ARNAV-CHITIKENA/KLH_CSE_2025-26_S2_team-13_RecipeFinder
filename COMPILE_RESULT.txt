@@ -1,0 +1,73 @@
+JAVAC STDOUT:
+
+JAVAC STDERR:
+
+RUN STDOUT:
+========================================
+             RECIPE FINDER
+========================================
+Recipes loaded: 3
+
+1. Search Recipe
+2. Exit
+
+Enter your choice: 
+Enter search keyword: 
+Select search method:
+1. KMP
+2. Rabin-Karp
+3. Z-Function
+
+Enter choice: 
+Searching...
+Total recipes loaded: 3
+
+----------------------------------------
+Match 1
+Recipe ID     : 1
+Recipe Name   : Chicken Biryani
+Cuisine       : Indian
+Category      : Main Course
+Cooking Time  : 60 minutes
+Budget        : ₹350.0
+Rating        : 4.9
+----------------------------------------
+
+----------------------------------------
+Match 2
+Recipe ID     : 2
+Recipe Name   : Chicken Fried Rice
+Cuisine       : Chinese
+Category      : Main Course
+Cooking Time  : 30 minutes
+Budget        : ₹250.0
+Rating        : 4.7
+----------------------------------------
+
+----------------------------------------
+Match 3
+Recipe ID     : 3
+Recipe Name   : Chicken Tikka
+Cuisine       : Indian
+Category      : Appetizers
+Cooking Time  : 40 minutes
+Budget        : ₹300.0
+Rating        : 4.8
+----------------------------------------
+
+========================================
+SEARCH SUMMARY
+========================================
+Query           : Chicken
+Algorithm       : KMP
+Records Checked : 3
+Matches Found   : 3
+========================================
+
+1. Search Recipe
+2. Exit
+
+Enter your choice: 
+Thank you for using Recipe Finder!
+
+RUN STDERR:
