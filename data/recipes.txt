@@ -1,0 +1,926 @@
+RECIPE FINDER
+INDIAN RECIPE TEXT DATA — 50 DISHES WITH PREPARATION STEPS
+
+This collection is designed for a text-file-based Recipe Finder.
+Each recipe contains a name, region/cuisine, category, and ten ordered preparation steps.
+
+============================================================
+RECIPE ID: 1
+RECIPE NAME: Hyderabadi Chicken Biryani
+REGION / CUISINE: Telangana / Hyderabad
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Wash and soak basmati rice for about 20 minutes.
+2. Marinate chicken with yogurt, ginger-garlic paste, chilli powder, turmeric, salt, lemon juice, and biryani spices.
+3. Rest the marinated chicken for at least 30 minutes.
+4. Fry sliced onions until golden and keep some aside.
+5. Cook rice with whole spices until about 70 percent done.
+6. Place marinated chicken in a heavy-bottomed pot and add the partially cooked rice.
+7. Add fried onions, mint, coriander, saffron milk, and ghee.
+8. Cover tightly and cook on low heat until the chicken and rice are fully cooked.
+9. Rest the biryani for a few minutes.
+10. Gently mix and serve hot.
+
+============================================================
+RECIPE ID: 2
+RECIPE NAME: Lucknowi Chicken Biryani
+REGION / CUISINE: Uttar Pradesh
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Wash and soak basmati rice.
+2. Marinate chicken with yogurt, ginger-garlic paste, salt, and mild spices.
+3. Fry onions until lightly golden.
+4. Cook rice with cardamom, cinnamon, cloves, and bay leaf until partially cooked.
+5. Cook the marinated chicken separately until nearly tender.
+6. Layer chicken and rice in a heavy pot.
+7. Add fried onions, mint, coriander, and saffron milk.
+8. Cover and cook slowly until done.
+9. Rest before opening the lid.
+10. Serve carefully without breaking the rice grains.
+
+============================================================
+RECIPE ID: 3
+RECIPE NAME: Chicken Tikka
+REGION / CUISINE: Punjab
+CATEGORY: Appetizer
+
+PREPARATION STEPS:
+1. Cut boneless chicken into medium pieces.
+2. Mix yogurt, ginger-garlic paste, chilli powder, turmeric, garam masala, lemon juice, salt, and oil.
+3. Coat the chicken thoroughly.
+4. Marinate for at least 30 minutes.
+5. Thread chicken onto skewers.
+6. Grill, bake, or pan-cook the pieces.
+7. Turn regularly for even cooking.
+8. Cook until lightly charred and fully cooked.
+9. Brush with butter or oil.
+10. Serve with onion rings and lemon.
+
+============================================================
+RECIPE ID: 4
+RECIPE NAME: Butter Chicken
+REGION / CUISINE: Punjab / Delhi
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Marinate chicken with yogurt, spices, ginger-garlic paste, and lemon juice.
+2. Grill or pan-cook the chicken until lightly charred.
+3. Heat butter and add whole spices.
+4. Add chopped tomatoes and cook until soft.
+5. Blend the tomato mixture into a smooth sauce.
+6. Return the sauce to the pan and add cream.
+7. Add garam masala, salt, and a small amount of sugar if needed.
+8. Add cooked chicken pieces.
+9. Simmer gently until the chicken absorbs the sauce.
+10. Garnish with cream and coriander.
+
+============================================================
+RECIPE ID: 5
+RECIPE NAME: Chicken Korma
+REGION / CUISINE: Uttar Pradesh / Mughlai
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Marinate chicken with yogurt and salt.
+2. Fry sliced onions until golden.
+3. Add ginger-garlic paste and cook briefly.
+4. Add chicken and cook until the surface changes color.
+5. Add yogurt gradually while stirring.
+6. Add ground cashews or almonds.
+7. Add cardamom, cinnamon, and mild garam masala.
+8. Add a little water and cover.
+9. Cook until chicken is tender and gravy thickens.
+10. Finish with fresh coriander.
+
+============================================================
+RECIPE ID: 6
+RECIPE NAME: Paneer Butter Masala
+REGION / CUISINE: North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Cut paneer into cubes.
+2. Lightly fry paneer and keep it aside.
+3. Cook tomatoes with cashews, ginger, and garlic.
+4. Blend the cooked mixture smoothly.
+5. Heat butter and add the tomato paste.
+6. Add chilli powder, garam masala, salt, and water.
+7. Simmer until the gravy thickens.
+8. Add cream and mix gently.
+9. Add paneer and simmer briefly.
+10. Garnish with coriander.
+
+============================================================
+RECIPE ID: 7
+RECIPE NAME: Palak Paneer
+REGION / CUISINE: North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Wash spinach thoroughly.
+2. Blanch spinach briefly in hot water.
+3. Transfer spinach to cold water.
+4. Blend spinach with ginger, garlic, and green chilli.
+5. Cut paneer into cubes and lightly fry if desired.
+6. Cook cumin and chopped onion in oil.
+7. Add spinach puree and cook gently.
+8. Add salt, garam masala, and cream.
+9. Add paneer and simmer briefly.
+10. Serve with roti or rice.
+
+============================================================
+RECIPE ID: 8
+RECIPE NAME: Shahi Paneer
+REGION / CUISINE: Mughlai / North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Cook onions until soft and lightly golden.
+2. Add cashews, tomatoes, ginger, and garlic.
+3. Cook until softened.
+4. Blend into a smooth paste.
+5. Heat butter and add the paste.
+6. Add mild spices, salt, and water.
+7. Simmer until smooth.
+8. Add cream and a small amount of sugar.
+9. Add paneer cubes and cook gently.
+10. Garnish with nuts or coriander.
+
+============================================================
+RECIPE ID: 9
+RECIPE NAME: Chole Bhature
+REGION / CUISINE: Punjab / North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Soak chickpeas overnight.
+2. Pressure-cook chickpeas until tender.
+3. Cook cumin, onion, ginger, and garlic in oil.
+4. Add tomato puree and cook until thick.
+5. Add chole masala, chilli powder, coriander powder, and salt.
+6. Add chickpeas and cooking water.
+7. Simmer until the gravy thickens.
+8. Prepare soft bhature dough with flour, yogurt, salt, and water.
+9. Roll and deep-fry bhature until puffed.
+10. Serve hot with chole.
+
+============================================================
+RECIPE ID: 10
+RECIPE NAME: Rajma Masala
+REGION / CUISINE: North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Soak kidney beans overnight.
+2. Rinse and pressure-cook until soft.
+3. Heat oil and cook cumin.
+4. Add onion, ginger, and garlic.
+5. Add tomato puree and cook until thick.
+6. Add chilli powder, coriander powder, turmeric, and garam masala.
+7. Add cooked rajma and cooking liquid.
+8. Mash a little rajma to thicken the gravy.
+9. Simmer until flavors combine.
+10. Serve with steamed rice.
+
+============================================================
+RECIPE ID: 11
+RECIPE NAME: Dal Makhani
+REGION / CUISINE: Punjab
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Soak whole black urad dal and kidney beans overnight.
+2. Pressure-cook until very soft.
+3. Heat butter and cook ginger-garlic paste.
+4. Add tomato puree and cook thoroughly.
+5. Add cooked lentils and beans.
+6. Add salt, chilli powder, and garam masala.
+7. Simmer on low heat for a long time.
+8. Add butter gradually.
+9. Add cream if desired.
+10. Garnish with butter and coriander.
+
+============================================================
+RECIPE ID: 12
+RECIPE NAME: Dal Tadka
+REGION / CUISINE: North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Wash and pressure-cook yellow lentils until soft.
+2. Mash the cooked dal lightly.
+3. Heat ghee in a small pan.
+4. Add cumin, mustard seeds, dried chilli, and garlic.
+5. Add onion and cook until golden.
+6. Add tomato and spices.
+7. Cook the tempering until fragrant.
+8. Pour the tempering into the dal.
+9. Adjust salt and consistency.
+10. Garnish with coriander.
+
+============================================================
+RECIPE ID: 13
+RECIPE NAME: Masala Dosa
+REGION / CUISINE: Karnataka / South India
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Soak rice and urad dal separately.
+2. Grind them into a smooth batter.
+3. Mix and ferment overnight.
+4. Prepare potato masala with boiled potatoes, onion, mustard seeds, curry leaves, and turmeric.
+5. Heat a dosa pan.
+6. Spread a thin layer of batter.
+7. Drizzle oil around the edges.
+8. Place potato masala in the center.
+9. Fold and cook until crisp.
+10. Serve with sambar and chutney.
+
+============================================================
+RECIPE ID: 14
+RECIPE NAME: Idli
+REGION / CUISINE: Tamil Nadu / South India
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Soak idli rice and urad dal separately.
+2. Grind both until smooth.
+3. Mix into a thick batter.
+4. Ferment overnight.
+5. Add salt and mix gently.
+6. Grease idli moulds.
+7. Pour batter into moulds.
+8. Steam until firm and cooked.
+9. Cool briefly before removing.
+10. Serve with sambar and chutney.
+
+============================================================
+RECIPE ID: 15
+RECIPE NAME: Medu Vada
+REGION / CUISINE: South India
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Soak urad dal for several hours.
+2. Grind into a thick fluffy batter using minimal water.
+3. Add salt, green chilli, ginger, curry leaves, and pepper.
+4. Mix thoroughly.
+5. Wet your hand and shape the batter into rings.
+6. Heat oil to medium-hot temperature.
+7. Slide vadas carefully into oil.
+8. Fry until crisp and golden.
+9. Drain excess oil.
+10. Serve with sambar and chutney.
+
+============================================================
+RECIPE ID: 16
+RECIPE NAME: Ven Pongal
+REGION / CUISINE: Tamil Nadu
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Wash rice and moong dal.
+2. Lightly roast the moong dal.
+3. Cook rice and dal together until soft.
+4. Heat ghee separately.
+5. Add cumin, pepper, ginger, curry leaves, and cashews.
+6. Fry until aromatic.
+7. Add tempering to the cooked rice and dal.
+8. Add salt and mix.
+9. Adjust consistency with hot water if required.
+10. Serve hot.
+
+============================================================
+RECIPE ID: 17
+RECIPE NAME: Upma
+REGION / CUISINE: South India
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Dry-roast semolina until fragrant.
+2. Heat oil in a pan.
+3. Add mustard seeds, urad dal, chana dal, and curry leaves.
+4. Add onion, green chilli, and ginger.
+5. Cook until onion softens.
+6. Add water and salt.
+7. Bring water to a boil.
+8. Slowly add semolina while stirring.
+9. Cook until soft and fluffy.
+10. Garnish with coriander.
+
+============================================================
+RECIPE ID: 18
+RECIPE NAME: Poha
+REGION / CUISINE: Maharashtra
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Rinse flattened rice quickly and drain.
+2. Sprinkle salt and turmeric over it.
+3. Heat oil and add mustard seeds and cumin.
+4. Add peanuts and fry until crisp.
+5. Add onion, green chilli, and curry leaves.
+6. Cook until onion softens.
+7. Add prepared poha.
+8. Mix gently and cook briefly.
+9. Add lemon juice.
+10. Garnish with coriander.
+
+============================================================
+RECIPE ID: 19
+RECIPE NAME: Misal Pav
+REGION / CUISINE: Maharashtra
+CATEGORY: Breakfast / Snack
+
+PREPARATION STEPS:
+1. Soak and cook sprouted beans until tender.
+2. Prepare masala with onion, tomato, garlic, ginger, and spices.
+3. Add cooked sprouts.
+4. Add water and simmer to make usal.
+5. Prepare a spicy gravy if desired.
+6. Place usal in a bowl.
+7. Pour spicy gravy over it.
+8. Add farsan.
+9. Garnish with onion and coriander.
+10. Serve with toasted pav and lemon.
+
+============================================================
+RECIPE ID: 20
+RECIPE NAME: Pav Bhaji
+REGION / CUISINE: Maharashtra
+CATEGORY: Snack / Main Course
+
+PREPARATION STEPS:
+1. Boil potatoes, peas, cauliflower, and other vegetables.
+2. Mash the cooked vegetables.
+3. Heat butter on a wide pan.
+4. Cook onion and green chilli.
+5. Add tomato and cook until soft.
+6. Add pav bhaji masala and chilli powder.
+7. Add mashed vegetables.
+8. Mash while cooking.
+9. Add water to create a thick consistency.
+10. Toast pav with butter and serve.
+
+============================================================
+RECIPE ID: 21
+RECIPE NAME: Vada Pav
+REGION / CUISINE: Maharashtra
+CATEGORY: Snack
+
+PREPARATION STEPS:
+1. Boil and mash potatoes.
+2. Add green chilli, ginger, coriander, salt, and turmeric.
+3. Shape potato mixture into balls.
+4. Prepare gram-flour batter with spices.
+5. Dip each ball into batter.
+6. Deep-fry until golden.
+7. Slice pav buns.
+8. Spread green and garlic chutney.
+9. Place vada inside pav.
+10. Serve with chutney and fried chilli.
+
+============================================================
+RECIPE ID: 22
+RECIPE NAME: Samosa
+REGION / CUISINE: North India
+CATEGORY: Snack
+
+PREPARATION STEPS:
+1. Prepare firm dough using flour, salt, oil, and water.
+2. Boil and chop potatoes.
+3. Mix potatoes with peas, spices, coriander, and chilli.
+4. Rest dough and divide into balls.
+5. Roll each ball into an oval.
+6. Cut and form a cone.
+7. Fill with potato mixture.
+8. Seal edges with water.
+9. Deep-fry until crisp and golden.
+10. Serve with chutney.
+
+============================================================
+RECIPE ID: 23
+RECIPE NAME: Pakora
+REGION / CUISINE: India
+CATEGORY: Snack
+
+PREPARATION STEPS:
+1. Choose onion, spinach, potato, or cauliflower.
+2. Slice vegetables suitably.
+3. Prepare gram-flour batter with spices, salt, and water.
+4. Add coriander and chilli.
+5. Heat oil to medium temperature.
+6. Dip vegetables in batter.
+7. Drop portions into oil.
+8. Fry until crisp and golden.
+9. Drain excess oil.
+10. Serve hot with chutney.
+
+============================================================
+RECIPE ID: 24
+RECIPE NAME: Pani Puri
+REGION / CUISINE: North / West India
+CATEGORY: Snack
+
+PREPARATION STEPS:
+1. Prepare spicy mint-coriander water with lemon and spices.
+2. Prepare sweet tamarind water separately.
+3. Boil potatoes and chickpeas.
+4. Mash potatoes with spices.
+5. Arrange puris for serving.
+6. Make a small hole in each puri.
+7. Fill with potato and chickpeas.
+8. Add sweet chutney.
+9. Fill with spicy water.
+10. Serve immediately.
+
+============================================================
+RECIPE ID: 25
+RECIPE NAME: Bhel Puri
+REGION / CUISINE: Maharashtra
+CATEGORY: Snack
+
+PREPARATION STEPS:
+1. Place puffed rice in a large bowl.
+2. Add onion and tomato.
+3. Add boiled potato cubes.
+4. Add peanuts and sev.
+5. Add green chutney.
+6. Add sweet tamarind chutney.
+7. Sprinkle chaat masala and salt.
+8. Add lemon juice.
+9. Mix quickly to retain crispness.
+10. Serve immediately.
+
+============================================================
+RECIPE ID: 26
+RECIPE NAME: Aloo Paratha
+REGION / CUISINE: Punjab / North India
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Boil and mash potatoes.
+2. Mix potatoes with onion, chilli, coriander, and spices.
+3. Prepare soft wheat-flour dough.
+4. Divide dough into balls.
+5. Roll one ball and add potato filling.
+6. Seal and flatten.
+7. Roll into a round paratha.
+8. Cook on a hot tawa.
+9. Apply ghee or oil on both sides.
+10. Serve with yogurt.
+
+============================================================
+RECIPE ID: 27
+RECIPE NAME: Chapati
+REGION / CUISINE: North India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Add wheat flour and salt to a bowl.
+2. Add water gradually.
+3. Knead into soft dough.
+4. Rest the dough briefly.
+5. Divide into small balls.
+6. Roll each into a thin circle.
+7. Heat a tawa.
+8. Cook one side and turn.
+9. Cook until it puffs or develops brown spots.
+10. Serve hot.
+
+============================================================
+RECIPE ID: 28
+RECIPE NAME: Chicken Chettinad
+REGION / CUISINE: Tamil Nadu
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Cut chicken into medium pieces.
+2. Roast pepper, fennel, cumin, and coriander.
+3. Grind the roasted spices.
+4. Cook onion, ginger, and garlic in oil.
+5. Add tomato and cook until soft.
+6. Add ground spice mixture.
+7. Add chicken and coat with masala.
+8. Add water and cover.
+9. Cook until chicken is tender.
+10. Garnish with curry leaves and coriander.
+
+============================================================
+RECIPE ID: 29
+RECIPE NAME: Fish Curry
+REGION / CUISINE: Kerala / South India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Clean and cut fish into portions.
+2. Marinate lightly with turmeric and salt.
+3. Prepare curry base with onion, ginger, garlic, and tamarind or tomato.
+4. Add chilli, turmeric, and coriander powder.
+5. Add water and simmer.
+6. Add fish pieces carefully.
+7. Cook without stirring aggressively.
+8. Add coconut milk for a Kerala-style version if desired.
+9. Simmer until fish is cooked.
+10. Rest briefly and serve with rice.
+
+============================================================
+RECIPE ID: 30
+RECIPE NAME: Kerala Vegetable Stew
+REGION / CUISINE: Kerala
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Cut vegetables into medium pieces.
+2. Heat coconut oil and add curry leaves.
+3. Add onion, ginger, and green chilli.
+4. Cook until onion softens.
+5. Add vegetables and water.
+6. Cover and cook until tender.
+7. Add thin coconut milk.
+8. Simmer gently.
+9. Add thick coconut milk near the end.
+10. Serve with appam.
+
+============================================================
+RECIPE ID: 31
+RECIPE NAME: Appam
+REGION / CUISINE: Kerala
+CATEGORY: Breakfast
+
+PREPARATION STEPS:
+1. Soak rice for several hours.
+2. Grind rice with coconut into a smooth batter.
+3. Add a suitable fermentation ingredient.
+4. Allow batter to ferment.
+5. Add salt and adjust consistency.
+6. Heat an appam pan.
+7. Pour batter into the center.
+8. Swirl pan to create thin edges.
+9. Cover and cook until center is soft and edges crisp.
+10. Serve with stew or curry.
+
+============================================================
+RECIPE ID: 32
+RECIPE NAME: Masala Pav
+REGION / CUISINE: Maharashtra
+CATEGORY: Snack
+
+PREPARATION STEPS:
+1. Heat butter on a pan.
+2. Add onion and green chilli.
+3. Add tomato and cook until soft.
+4. Add pav bhaji masala and chilli powder.
+5. Add a little water.
+6. Slice pav buns.
+7. Toast pav on the same pan.
+8. Coat the inside with masala.
+9. Add onion and coriander.
+10. Serve hot.
+
+============================================================
+RECIPE ID: 33
+RECIPE NAME: Hyderabadi Haleem
+REGION / CUISINE: Telangana / Hyderabad
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Soak wheat and lentils as required.
+2. Cook grains and lentils until very soft.
+3. Cook meat separately with ginger, garlic, spices, and salt.
+4. Shred the cooked meat.
+5. Combine meat with grains and lentils.
+6. Mash and stir until thick and smooth.
+7. Add fried onions and garam masala.
+8. Cook slowly so flavors combine.
+9. Adjust consistency with stock or water.
+10. Garnish with fried onions, coriander, lemon, and mint.
+
+============================================================
+RECIPE ID: 34
+RECIPE NAME: Puliyodarai
+REGION / CUISINE: Tamil Nadu
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Cook rice and cool slightly.
+2. Prepare tamarind extract.
+3. Heat oil and add mustard seeds.
+4. Add peanuts, curry leaves, dried chilli, and lentils.
+5. Add tamarind extract and spices.
+6. Cook until thick.
+7. Add the paste gradually to rice.
+8. Mix gently.
+9. Rest so flavors absorb.
+10. Serve warm or at room temperature.
+
+============================================================
+RECIPE ID: 35
+RECIPE NAME: Lemon Rice
+REGION / CUISINE: South India
+CATEGORY: Main Course / Breakfast
+
+PREPARATION STEPS:
+1. Cook rice and cool slightly.
+2. Heat oil and add mustard seeds.
+3. Add peanuts, urad dal, chana dal, dried chilli, and curry leaves.
+4. Add turmeric.
+5. Lower the heat.
+6. Add lemon juice and salt.
+7. Add cooked rice.
+8. Mix gently.
+9. Adjust seasoning.
+10. Serve with papad or pickle.
+
+============================================================
+RECIPE ID: 36
+RECIPE NAME: Curd Rice
+REGION / CUISINE: South India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Cook rice until soft.
+2. Mash lightly while warm.
+3. Add milk or water for a creamy texture.
+4. Cool to room temperature.
+5. Add fresh curd and salt.
+6. Prepare tempering with mustard seeds, urad dal, ginger, chilli, and curry leaves.
+7. Add tempering to rice.
+8. Mix gently.
+9. Garnish with coriander or pomegranate.
+10. Serve chilled or at room temperature.
+
+============================================================
+RECIPE ID: 37
+RECIPE NAME: Vegetable Biryani
+REGION / CUISINE: India
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Wash and soak basmati rice.
+2. Chop mixed vegetables.
+3. Cook onion, ginger, garlic, and whole spices.
+4. Add vegetables and biryani spices.
+5. Cook until vegetables are partly tender.
+6. Cook rice separately until partially done.
+7. Layer vegetable masala and rice.
+8. Add mint, coriander, saffron milk, and fried onions.
+9. Cover and cook on low heat.
+10. Rest and serve gently.
+
+============================================================
+RECIPE ID: 38
+RECIPE NAME: Paneer Tikka
+REGION / CUISINE: North India
+CATEGORY: Appetizer
+
+PREPARATION STEPS:
+1. Cut paneer into cubes.
+2. Cut onion and bell pepper into chunks.
+3. Prepare yogurt marinade with spices, lemon, salt, and oil.
+4. Coat paneer and vegetables.
+5. Rest for at least 30 minutes.
+6. Thread onto skewers.
+7. Grill, bake, or pan-cook.
+8. Turn regularly for even browning.
+9. Brush with butter or oil.
+10. Serve with mint chutney and lemon.
+
+============================================================
+RECIPE ID: 39
+RECIPE NAME: Gobi Manchurian
+REGION / CUISINE: Indo-Chinese
+CATEGORY: Snack / Main Course
+
+PREPARATION STEPS:
+1. Cut cauliflower into small florets.
+2. Prepare flour and cornflour batter with spices and salt.
+3. Coat the florets.
+4. Fry until crisp.
+5. Heat a separate pan with oil.
+6. Add garlic, ginger, green chilli, and spring onion.
+7. Add soy sauce and other sauces.
+8. Add a little water and cornflour slurry.
+9. Add fried cauliflower and toss quickly.
+10. Garnish with spring onion.
+
+============================================================
+RECIPE ID: 40
+RECIPE NAME: Hakka Vegetable Noodles
+REGION / CUISINE: Indo-Chinese
+CATEGORY: Main Course
+
+PREPARATION STEPS:
+1. Boil noodles until just cooked.
+2. Drain, rinse with cold water, and toss with oil.
+3. Heat a wok on high heat.
+4. Add oil, garlic, and ginger.
+5. Add cabbage, carrot, and bell pepper.
+6. Stir-fry while keeping vegetables crisp.
+7. Add soy sauce, pepper, and salt.
+8. Add noodles.
+9. Toss on high heat.
+10. Garnish with spring onion.
+
+============================================================
+RECIPE ID: 41
+RECIPE NAME: Gulab Jamun
+REGION / CUISINE: North India
+CATEGORY: Dessert
+
+PREPARATION STEPS:
+1. Prepare soft dough from milk-solid based ingredients and a little flour.
+2. Knead gently.
+3. Shape into smooth balls.
+4. Prepare sugar syrup with sugar, water, cardamom, and rose water if desired.
+5. Heat oil or ghee on low-medium heat.
+6. Fry balls slowly until golden.
+7. Drain and place in warm syrup.
+8. Allow them to absorb syrup.
+9. Rest for several hours.
+10. Serve warm or chilled.
+
+============================================================
+RECIPE ID: 42
+RECIPE NAME: Rasgulla
+REGION / CUISINE: West Bengal / Odisha
+CATEGORY: Dessert
+
+PREPARATION STEPS:
+1. Boil milk and curdle it with an acidic ingredient.
+2. Strain the curds through a clean cloth.
+3. Wash and drain the chenna.
+4. Knead until smooth.
+5. Shape into small smooth balls.
+6. Prepare light sugar syrup.
+7. Bring syrup to a steady boil.
+8. Add chenna balls carefully.
+9. Cover and cook until they expand and become spongy.
+10. Cool slightly and serve with syrup.
+
+============================================================
+RECIPE ID: 43
+RECIPE NAME: Kheer
+REGION / CUISINE: North India
+CATEGORY: Dessert
+
+PREPARATION STEPS:
+1. Wash and briefly soak rice.
+2. Heat milk in a heavy pan.
+3. Add rice.
+4. Cook slowly while stirring regularly.
+5. Continue until rice is soft and milk thickens.
+6. Add sugar.
+7. Add cardamom and chopped nuts.
+8. Cook a few more minutes.
+9. Add saffron if desired.
+10. Serve warm or chilled.
+
+============================================================
+RECIPE ID: 44
+RECIPE NAME: Gajar Ka Halwa
+REGION / CUISINE: North India
+CATEGORY: Dessert
+
+PREPARATION STEPS:
+1. Wash, peel, and grate carrots.
+2. Heat milk in a heavy pan.
+3. Add carrots.
+4. Cook slowly until carrots soften and milk reduces.
+5. Add sugar.
+6. Add ghee and stir.
+7. Add cardamom and chopped nuts.
+8. Continue until thick.
+9. Add khoya or milk solids if desired.
+10. Serve warm or chilled.
+
+============================================================
+RECIPE ID: 45
+RECIPE NAME: Mysore Pak
+REGION / CUISINE: Karnataka
+CATEGORY: Dessert
+
+PREPARATION STEPS:
+1. Sieve gram flour.
+2. Prepare sugar syrup to the required consistency.
+3. Heat ghee separately.
+4. Add gram flour gradually while stirring.
+5. Add warm ghee in small portions.
+6. Keep stirring continuously.
+7. Cook until mixture thickens and leaves the sides.
+8. Transfer to a greased tray.
+9. Level quickly.
+10. Cool and cut into pieces.
+
+============================================================
+RECIPE ID: 46
+RECIPE NAME: Jalebi
+REGION / CUISINE: North India
+CATEGORY: Dessert
+
+PREPARATION STEPS:
+1. Prepare smooth flour batter with a suitable fermentation ingredient.
+2. Allow batter to rest and ferment.
+3. Prepare sugar syrup with sugar, water, and cardamom.
+4. Heat oil or ghee in a wide pan.
+5. Transfer batter to a piping bottle or cloth.
+6. Pipe circular spirals into hot oil.
+7. Fry until crisp.
+8. Place directly into warm sugar syrup.
+9. Soak briefly.
+10. Serve warm.
+
+============================================================
+RECIPE ID: 47
+RECIPE NAME: Mango Lassi
+REGION / CUISINE: North India
+CATEGORY: Beverage
+
+PREPARATION STEPS:
+1. Peel and cut ripe mangoes.
+2. Add mango pieces to a blender.
+3. Add chilled yogurt.
+4. Add sugar if required.
+5. Add cardamom if desired.
+6. Blend until smooth.
+7. Add chilled water or milk if too thick.
+8. Taste and adjust sweetness.
+9. Chill before serving.
+10. Garnish with mango pieces or nuts.
+
+============================================================
+RECIPE ID: 48
+RECIPE NAME: Masala Chai
+REGION / CUISINE: India
+CATEGORY: Beverage
+
+PREPARATION STEPS:
+1. Crush cardamom, ginger, cinnamon, and cloves.
+2. Add water to a saucepan.
+3. Add spices and bring to a boil.
+4. Add tea leaves.
+5. Simmer briefly.
+6. Add milk.
+7. Add sugar to taste.
+8. Simmer until aromatic.
+9. Strain into cups.
+10. Serve hot.
+
+============================================================
+RECIPE ID: 49
+RECIPE NAME: Filter Coffee
+REGION / CUISINE: Karnataka / South India
+CATEGORY: Beverage
+
+PREPARATION STEPS:
+1. Place ground coffee in the upper chamber of a filter.
+2. Add hot water over the coffee.
+3. Allow the decoction to drip into the lower chamber.
+4. Heat milk separately.
+5. Add sugar to a cup.
+6. Add coffee decoction.
+7. Pour in hot milk.
+8. Mix thoroughly.
+9. Pour between tumbler and davara to create froth.
+10. Serve hot.
+
+============================================================
+RECIPE ID: 50
+RECIPE NAME: Sweet Lassi
+REGION / CUISINE: Punjab / North India
+CATEGORY: Beverage
+
+PREPARATION STEPS:
+1. Place chilled yogurt in a blender.
+2. Add chilled water or milk.
+3. Add sugar according to taste.
+4. Add cardamom if desired.
+5. Blend until smooth and lightly frothy.
+6. Taste and adjust sweetness.
+7. Add more liquid if necessary.
+8. Chill before serving.
+9. Pour into glasses.
+10. Garnish with nuts or cardamom.
+
+============================================================
+TEXT FILE STRUCTURE FOR JAVA IMPLEMENTATION
+============================================================
+
+Recommended project structure:
+RecipeFinder/
+├── data/
+│   └── recipes.txt
+└── src/
+    ├── Main.java
+    ├── Recipe.java
+    ├── RecipeReader.java
+    └── StringAlgorithms.java
+
+Important:
+This is plain text rather than CSV. The Java reader can use separators such as
+RECIPE ID:, RECIPE NAME:, REGION / CUISINE:, CATEGORY:, and PREPARATION STEPS:
+to identify each record and its ordered steps.
+
+CO2 searches can operate on recipe names and the complete recipe text, including steps.
