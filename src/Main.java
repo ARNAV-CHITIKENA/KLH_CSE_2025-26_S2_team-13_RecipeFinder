@@ -3,23 +3,31 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static final String FILE_PATH = "data/recipes.csv";
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
+        // Load recipes from data/recipes.txt
         ArrayList<Recipe> recipes =
-                RecipeReader.loadRecipes(FILE_PATH);
+                RecipeReader.loadRecipes();
 
+        System.out.println();
         System.out.println("========================================");
         System.out.println("             RECIPE FINDER");
         System.out.println("========================================");
-        System.out.println("Recipes loaded: " + recipes.size());
+
+        System.out.println(
+                "Recipes loaded: " + recipes.size()
+        );
 
         if (recipes.isEmpty()) {
-            System.out.println("\nNo recipes were loaded.");
-            System.out.println("Check that data/recipes.csv exists.");
+
+            System.out.println();
+            System.out.println("No recipes were loaded.");
+            System.out.println(
+                    "Check that data/recipes.txt exists."
+            );
+
             scanner.close();
             return;
         }
@@ -28,134 +36,231 @@ public class Main {
 
         while (running) {
 
-            System.out.println("\n1. Search Recipe");
+            System.out.println();
+            System.out.println("----------------------------------------");
+            System.out.println("1. Search Recipe");
             System.out.println("2. Exit");
-            System.out.print("\nEnter your choice: ");
+            System.out.println("----------------------------------------");
 
-            String choice = scanner.nextLine().trim();
+            System.out.print("Enter your choice: ");
+
+            String choice =
+                    scanner.nextLine().trim();
 
             switch (choice) {
 
                 case "1":
-                    searchRecipes(recipes, scanner);
+
+                    searchRecipes(
+                            recipes,
+                            scanner
+                    );
+
                     break;
 
                 case "2":
-                    System.out.println("\nThank you for using Recipe Finder!");
+
                     running = false;
+
+                    System.out.println();
+                    System.out.println(
+                            "Thank you for using Recipe Finder!"
+                    );
+
                     break;
 
                 default:
-                    System.out.println("\nInvalid choice. Enter 1 or 2.");
+
+                    System.out.println(
+                            "Invalid choice. Please enter 1 or 2."
+                    );
             }
         }
 
         scanner.close();
     }
 
+
+    // =====================================================
+    // RECIPE SEARCH
+    // =====================================================
+
     private static void searchRecipes(
             ArrayList<Recipe> recipes,
             Scanner scanner) {
 
-        System.out.print("\nEnter search keyword: ");
-        String query = scanner.nextLine().trim();
+        System.out.println();
+        System.out.println("========================================");
+        System.out.println("           RECIPE SEARCH");
+        System.out.println("========================================");
+
+        System.out.print(
+                "Enter recipe name: "
+        );
+
+        String query =
+                scanner.nextLine().trim();
 
         if (query.isEmpty()) {
-            System.out.println("Search keyword cannot be empty.");
+
+            System.out.println(
+                    "Search query cannot be empty."
+            );
+
             return;
         }
 
-        System.out.println("\nSelect search method:");
+        System.out.println();
+        System.out.println(
+                "Searching recipes.txt..."
+        );
+
+        // =================================================
+        // SELECT ALGORITHM
+        // =================================================
+
+        System.out.println();
+        System.out.println(
+                "Select String Matching Algorithm:"
+        );
+
         System.out.println("1. KMP");
         System.out.println("2. Rabin-Karp");
         System.out.println("3. Z-Function");
 
-        System.out.print("\nEnter choice: ");
-        String method = scanner.nextLine().trim();
+        System.out.print(
+                "Enter algorithm choice: "
+        );
 
-        System.out.println("\nSearching...");
-        System.out.println("Total recipes loaded: " + recipes.size());
+        String algorithmChoice =
+                scanner.nextLine().trim();
+
+        String algorithmName;
+
+        if (algorithmChoice.equals("1")) {
+
+            algorithmName = "KMP";
+
+        } else if (algorithmChoice.equals("2")) {
+
+            algorithmName = "Rabin-Karp";
+
+        } else if (algorithmChoice.equals("3")) {
+
+            algorithmName = "Z-Function";
+
+        } else {
+
+            System.out.println(
+                    "Invalid algorithm choice."
+            );
+
+            return;
+        }
+
+        System.out.println();
+        System.out.println("SEARCH SUMMARY");
+        System.out.println("========================================");
+
+        System.out.println(
+                "Query           : " + query
+        );
+
+        System.out.println(
+                "Algorithm       : " + algorithmName
+        );
 
         int recordsChecked = 0;
         int matchesFound = 0;
+
+        // =================================================
+        // SEARCH EVERY RECIPE
+        // =================================================
 
         for (Recipe recipe : recipes) {
 
             recordsChecked++;
 
-            boolean matched = false;
+            boolean match = false;
 
-            switch (method) {
+            // KMP
+            if (algorithmChoice.equals("1")) {
 
-                case "1":
-                    // KMP: recipe name / keyword search
-                    matched = StringAlgorithms.kmpContains(
-                            recipe.getRecipeName(),
-                            query
-                    );
-                    break;
-
-                case "2":
-                    // Rabin-Karp: searchable recipe text.
-                    // Current CSV does not yet contain ingredients.
-                    matched = StringAlgorithms.rabinKarpContains(
-                            recipe.getSearchableText(),
-                            query
-                    );
-                    break;
-
-                case "3":
-                    // Z-Function: additional substring search
-                    matched = StringAlgorithms.zFunctionContains(
-                            recipe.getRecipeName(),
-                            query
-                    );
-                    break;
-
-                default:
-                    System.out.println("Invalid algorithm choice.");
-                    return;
+                match =
+                        StringAlgorithms.kmpSearch(
+                                recipe.getRecipeName(),
+                                query
+                        );
             }
 
-            if (matched) {
+            // Rabin-Karp
+            else if (algorithmChoice.equals("2")) {
+
+                match =
+                        StringAlgorithms.rabinKarpSearch(
+                                recipe.getRecipeName(),
+                                query
+                        );
+            }
+
+            // Z-Function
+            else if (algorithmChoice.equals("3")) {
+
+                match =
+                        StringAlgorithms.zFunctionSearch(
+                                recipe.getRecipeName(),
+                                query
+                        );
+            }
+
+            if (match) {
 
                 matchesFound++;
 
-                System.out.println("\n----------------------------------------");
-                System.out.println("Match " + matchesFound);
-                System.out.println("Recipe ID     : " + recipe.getRecipeId());
-                System.out.println("Recipe Name   : " + recipe.getRecipeName());
-                System.out.println("Cuisine       : " + recipe.getCuisine());
-                System.out.println("Category      : " + recipe.getCategory());
-                System.out.println("Cooking Time  : "
-                        + recipe.getCookingTime() + " minutes");
-                System.out.println("Budget        : ₹" + recipe.getBudget());
-                System.out.println("Rating        : " + recipe.getRating());
-                System.out.println("----------------------------------------");
+                System.out.println();
+                System.out.println(
+                        "Match found at Recipe ID: "
+                                + recipe.getRecipeId()
+                );
+
+                // Display complete recipe
+                recipe.displayRecipe();
             }
         }
 
-        System.out.println("\n========================================");
-        System.out.println("SEARCH SUMMARY");
-        System.out.println("========================================");
-        System.out.println("Query           : " + query);
-        System.out.println("Algorithm       : " + getAlgorithmName(method));
-        System.out.println("Records Checked : " + recordsChecked);
-        System.out.println("Matches Found   : " + matchesFound);
-        System.out.println("========================================");
-    }
+        // =================================================
+        // SEARCH RESULT
+        // =================================================
 
-    private static String getAlgorithmName(String method) {
+        System.out.println();
+        System.out.println("========================================");
+        System.out.println("SEARCH RESULT");
+        System.out.println("========================================");
 
-        switch (method) {
-            case "1":
-                return "KMP";
-            case "2":
-                return "Rabin-Karp";
-            case "3":
-                return "Z-Function";
-            default:
-                return "Unknown";
+        System.out.println(
+                "Query           : " + query
+        );
+
+        System.out.println(
+                "Algorithm       : " + algorithmName
+        );
+
+        System.out.println(
+                "Records Checked : " + recordsChecked
+        );
+
+        System.out.println(
+                "Matches Found   : " + matchesFound
+        );
+
+        System.out.println("========================================");
+
+        if (matchesFound == 0) {
+
+            System.out.println();
+            System.out.println(
+                    "No matching recipe found."
+            );
         }
     }
 }
