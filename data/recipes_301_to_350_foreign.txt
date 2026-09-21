@@ -1,0 +1,1002 @@
+RECIPE FINDER
+
+RECIPE ID: 301
+RECIPE NAME: Banh Xeo
+REGION / CUISINE: Vietnam
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Banh Xeo, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 302
+RECIPE NAME: Thai Pad Kra Pao
+REGION / CUISINE: Thailand
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Thai Pad Kra Pao, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 303
+RECIPE NAME: Tom Kha Soup
+REGION / CUISINE: Thailand
+CATEGORY: Soup
+BUDGET: 550 INR (approx.)
+DURATION: 50 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Tom Kha Soup, including vegetables, protein, herbs, and seasonings.
+2. Prepare a flavorful broth or soup base.
+3. Cook the aromatics gently until fragrant.
+4. Add the main ingredients and pour in the broth.
+5. Bring the mixture to a gentle simmer.
+6. Cook until the vegetables and protein are tender and fully done.
+7. Add noodles, grains, dumplings, or other characteristic ingredients when required.
+8. Season and balance the flavor.
+9. Finish with fresh herbs or a suitable garnish.
+10. Serve hot.
+
+============================================================
+RECIPE ID: 304
+RECIPE NAME: Thai Red Curry
+REGION / CUISINE: Thailand
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Thai Red Curry, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 305
+RECIPE NAME: Green Papaya Salad
+REGION / CUISINE: Greece
+CATEGORY: Salad
+BUDGET: 450 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the fresh ingredients for Green Papaya Salad.
+2. Wash and dry the vegetables, herbs, and other ingredients thoroughly.
+3. Prepare any cooked grain, legume, protein, or main component.
+4. Mix the dressing, sauce, or seasoning.
+5. Combine the vegetables and main component in a bowl.
+6. Add the dressing gradually.
+7. Toss gently so the ingredients retain their texture.
+8. Add herbs, spices, cheese, nuts, or crunchy toppings.
+9. Taste and adjust salt and acidity.
+10. Serve fresh.
+
+============================================================
+RECIPE ID: 306
+RECIPE NAME: Indonesian Nasi Goreng
+REGION / CUISINE: Indonesia
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Indonesian Nasi Goreng, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 307
+RECIPE NAME: Beef Rendang
+REGION / CUISINE: Indonesia
+CATEGORY: Main Course
+BUDGET: 1800 INR (approx.)
+DURATION: 120 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Beef Rendang, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 308
+RECIPE NAME: Gado Gado
+REGION / CUISINE: Indonesia
+CATEGORY: Salad
+BUDGET: 450 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the fresh ingredients for Gado Gado.
+2. Wash and dry the vegetables, herbs, and other ingredients thoroughly.
+3. Prepare any cooked grain, legume, protein, or main component.
+4. Mix the dressing, sauce, or seasoning.
+5. Combine the vegetables and main component in a bowl.
+6. Add the dressing gradually.
+7. Toss gently so the ingredients retain their texture.
+8. Add herbs, spices, cheese, nuts, or crunchy toppings.
+9. Taste and adjust salt and acidity.
+10. Serve fresh.
+
+============================================================
+RECIPE ID: 309
+RECIPE NAME: Satay Ayam
+REGION / CUISINE: Indonesia
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Satay Ayam, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 310
+RECIPE NAME: Soto Ayam
+REGION / CUISINE: Indonesia
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Soto Ayam, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 311
+RECIPE NAME: Bakso
+REGION / CUISINE: Indonesia
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Bakso, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 312
+RECIPE NAME: Malaysian Laksa
+REGION / CUISINE: Malaysia
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Malaysian Laksa, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 313
+RECIPE NAME: Chicken Rice
+REGION / CUISINE: Malaysia / Singapore
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Chicken Rice, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 314
+RECIPE NAME: Char Kway Teow
+REGION / CUISINE: Malaysia / Singapore
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Char Kway Teow, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 315
+RECIPE NAME: Singapore Chili Crab
+REGION / CUISINE: Singapore
+CATEGORY: Main Course
+BUDGET: 1800 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Singapore Chili Crab, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 316
+RECIPE NAME: Filipino Sinigang
+REGION / CUISINE: Philippines
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Filipino Sinigang, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 317
+RECIPE NAME: Pancit Bihon
+REGION / CUISINE: Philippines / Southeast Asia
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Pancit Bihon, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 318
+RECIPE NAME: Beef Tapa
+REGION / CUISINE: Philippines / Southeast Asia
+CATEGORY: Main Course
+BUDGET: 1800 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Beef Tapa, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 319
+RECIPE NAME: Lechon Style Roast
+REGION / CUISINE: Philippines / Southeast Asia
+CATEGORY: Main Course
+BUDGET: 1400 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Lechon Style Roast, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 320
+RECIPE NAME: Spanish Seafood Paella
+REGION / CUISINE: Spain
+CATEGORY: Main Course
+BUDGET: 1800 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Spanish Seafood Paella, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 321
+RECIPE NAME: Spanish Churros
+REGION / CUISINE: Spain
+CATEGORY: Dessert
+BUDGET: 500 INR (approx.)
+DURATION: 60 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Spanish Churros and measure them carefully.
+2. Prepare the main mixture, dough, filling, milk base, or fruit component.
+3. Combine the ingredients until the texture is smooth and even.
+4. Prepare the pan, tray, mould, or serving dish.
+5. Cook, fry, bake, chill, or set the mixture using the required method.
+6. Continue until the desired color, texture, and doneness are reached.
+7. Add the traditional syrup, cream, nuts, spice, or topping.
+8. Cool or rest the preparation so it sets properly.
+9. Portion or arrange it for serving.
+10. Serve warm or chilled as appropriate.
+
+============================================================
+RECIPE ID: 322
+RECIPE NAME: Tortilla Espanola
+REGION / CUISINE: Spain
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Tortilla Espanola, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 323
+RECIPE NAME: Croquetas de Jamon
+REGION / CUISINE: Spain
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Croquetas de Jamon, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 324
+RECIPE NAME: Spanish Albondigas
+REGION / CUISINE: Spain
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Spanish Albondigas, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 325
+RECIPE NAME: Italian Risotto
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Italian Risotto, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 326
+RECIPE NAME: Pizza Marinara
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Pizza Marinara, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 327
+RECIPE NAME: Pasta Amatriciana
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Pasta Amatriciana, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 328
+RECIPE NAME: Pasta Arrabbiata
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Pasta Arrabbiata, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 329
+RECIPE NAME: Osso Buco
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 1800 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Osso Buco, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 330
+RECIPE NAME: Minestrone Genovese
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Minestrone Genovese, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 331
+RECIPE NAME: Chicken Piccata
+REGION / CUISINE: Italy
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Chicken Piccata, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 332
+RECIPE NAME: Tiramisu Classic
+REGION / CUISINE: Italy
+CATEGORY: Dessert
+BUDGET: 700 INR (approx.)
+DURATION: 60 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Tiramisu Classic and measure them carefully.
+2. Prepare the main mixture, dough, filling, milk base, or fruit component.
+3. Combine the ingredients until the texture is smooth and even.
+4. Prepare the pan, tray, mould, or serving dish.
+5. Cook, fry, bake, chill, or set the mixture using the required method.
+6. Continue until the desired color, texture, and doneness are reached.
+7. Add the traditional syrup, cream, nuts, spice, or topping.
+8. Cool or rest the preparation so it sets properly.
+9. Portion or arrange it for serving.
+10. Serve warm or chilled as appropriate.
+
+============================================================
+RECIPE ID: 333
+RECIPE NAME: Panna Cotta
+REGION / CUISINE: Italy
+CATEGORY: Dessert
+BUDGET: 700 INR (approx.)
+DURATION: 60 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Panna Cotta and measure them carefully.
+2. Prepare the main mixture, dough, filling, milk base, or fruit component.
+3. Combine the ingredients until the texture is smooth and even.
+4. Prepare the pan, tray, mould, or serving dish.
+5. Cook, fry, bake, chill, or set the mixture using the required method.
+6. Continue until the desired color, texture, and doneness are reached.
+7. Add the traditional syrup, cream, nuts, spice, or topping.
+8. Cool or rest the preparation so it sets properly.
+9. Portion or arrange it for serving.
+10. Serve warm or chilled as appropriate.
+
+============================================================
+RECIPE ID: 334
+RECIPE NAME: German Sauerbraten
+REGION / CUISINE: Germany
+CATEGORY: Main Course
+BUDGET: 1400 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for German Sauerbraten, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 335
+RECIPE NAME: German Currywurst
+REGION / CUISINE: Germany
+CATEGORY: Main Course
+BUDGET: 1000 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for German Currywurst, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 336
+RECIPE NAME: Pretzel
+REGION / CUISINE: Germany
+CATEGORY: Breakfast
+BUDGET: 500 INR (approx.)
+DURATION: 40 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Pretzel, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 337
+RECIPE NAME: German Potato Salad
+REGION / CUISINE: Germany
+CATEGORY: Salad
+BUDGET: 450 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the fresh ingredients for German Potato Salad.
+2. Wash and dry the vegetables, herbs, and other ingredients thoroughly.
+3. Prepare any cooked grain, legume, protein, or main component.
+4. Mix the dressing, sauce, or seasoning.
+5. Combine the vegetables and main component in a bowl.
+6. Add the dressing gradually.
+7. Toss gently so the ingredients retain their texture.
+8. Add herbs, spices, cheese, nuts, or crunchy toppings.
+9. Taste and adjust salt and acidity.
+10. Serve fresh.
+
+============================================================
+RECIPE ID: 338
+RECIPE NAME: Austrian Apple Strudel
+REGION / CUISINE: Austria
+CATEGORY: Dessert
+BUDGET: 500 INR (approx.)
+DURATION: 60 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Austrian Apple Strudel and measure them carefully.
+2. Prepare the main mixture, dough, filling, milk base, or fruit component.
+3. Combine the ingredients until the texture is smooth and even.
+4. Prepare the pan, tray, mould, or serving dish.
+5. Cook, fry, bake, chill, or set the mixture using the required method.
+6. Continue until the desired color, texture, and doneness are reached.
+7. Add the traditional syrup, cream, nuts, spice, or topping.
+8. Cool or rest the preparation so it sets properly.
+9. Portion or arrange it for serving.
+10. Serve warm or chilled as appropriate.
+
+============================================================
+RECIPE ID: 339
+RECIPE NAME: Swiss Fondue
+REGION / CUISINE: Switzerland
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Swiss Fondue, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 340
+RECIPE NAME: Swiss Rösti
+REGION / CUISINE: Switzerland
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Swiss Rösti, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 341
+RECIPE NAME: British Beef Pie
+REGION / CUISINE: United Kingdom
+CATEGORY: Main Course
+BUDGET: 1800 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for British Beef Pie, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 342
+RECIPE NAME: Yorkshire Pudding
+REGION / CUISINE: United Kingdom
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Yorkshire Pudding, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 343
+RECIPE NAME: Fish Pie
+REGION / CUISINE: United Kingdom
+CATEGORY: Main Course
+BUDGET: 1400 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Fish Pie, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 344
+RECIPE NAME: Irish Stew
+REGION / CUISINE: Ireland
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 120 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Irish Stew, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 345
+RECIPE NAME: Irish Soda Bread
+REGION / CUISINE: Ireland
+CATEGORY: Breakfast
+BUDGET: 400 INR (approx.)
+DURATION: 40 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Irish Soda Bread, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 346
+RECIPE NAME: American Pancakes
+REGION / CUISINE: United States
+CATEGORY: Breakfast
+BUDGET: 500 INR (approx.)
+DURATION: 40 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for American Pancakes, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 347
+RECIPE NAME: New York Cheesecake
+REGION / CUISINE: International
+CATEGORY: Dessert
+BUDGET: 700 INR (approx.)
+DURATION: 60 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for New York Cheesecake and measure them carefully.
+2. Prepare the main mixture, dough, filling, milk base, or fruit component.
+3. Combine the ingredients until the texture is smooth and even.
+4. Prepare the pan, tray, mould, or serving dish.
+5. Cook, fry, bake, chill, or set the mixture using the required method.
+6. Continue until the desired color, texture, and doneness are reached.
+7. Add the traditional syrup, cream, nuts, spice, or topping.
+8. Cool or rest the preparation so it sets properly.
+9. Portion or arrange it for serving.
+10. Serve warm or chilled as appropriate.
+
+============================================================
+RECIPE ID: 348
+RECIPE NAME: Mac and Cheese
+REGION / CUISINE: International
+CATEGORY: Main Course
+BUDGET: 600 INR (approx.)
+DURATION: 55 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Mac and Cheese, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 349
+RECIPE NAME: Buffalo Wings
+REGION / CUISINE: International
+CATEGORY: Appetizer
+BUDGET: 500 INR (approx.)
+DURATION: 35 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Buffalo Wings, including the main component, aromatics, and seasonings.
+2. Wash, cut, marinate, or otherwise prepare the main ingredients.
+3. Prepare the sauce, batter, marinade, or seasoning mixture.
+4. Heat a suitable pan, pot, grill, oven, or cooking surface.
+5. Cook the aromatics and spices until fragrant.
+6. Add the main ingredients and cook until they begin to brown or soften.
+7. Add the prepared sauce or seasoning and cook thoroughly.
+8. Add water, stock, or another liquid when required and cook until tender.
+9. Adjust seasoning and consistency, then add the traditional garnish.
+10. Serve hot or fresh with a suitable accompaniment.
+
+============================================================
+RECIPE ID: 350
+RECIPE NAME: Clam Chowder
+REGION / CUISINE: International
+CATEGORY: Soup
+BUDGET: 550 INR (approx.)
+DURATION: 50 minutes
+
+PREPARATION STEPS:
+1. Prepare the ingredients for Clam Chowder, including vegetables, protein, herbs, and seasonings.
+2. Prepare a flavorful broth or soup base.
+3. Cook the aromatics gently until fragrant.
+4. Add the main ingredients and pour in the broth.
+5. Bring the mixture to a gentle simmer.
+6. Cook until the vegetables and protein are tender and fully done.
+7. Add noodles, grains, dumplings, or other characteristic ingredients when required.
+8. Season and balance the flavor.
+9. Finish with fresh herbs or a suitable garnish.
+10. Serve hot.
+
+============================================================
