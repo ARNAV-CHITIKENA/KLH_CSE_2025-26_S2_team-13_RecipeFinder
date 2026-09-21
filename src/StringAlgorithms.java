@@ -1,22 +1,38 @@
 public class StringAlgorithms {
 
-    /*
-     * CO2 ALGORITHM 1: KMP
-     * Used for recipe-name / keyword pattern matching.
-     *
-     * Returns true when the pattern occurs in the text.
-     */
-    public static boolean kmpContains(String text, String pattern) {
+    // =========================================================
+    // NORMALIZE TEXT
+    // =========================================================
 
-        if (text == null || pattern == null) {
-            return false;
+    private static String normalize(String text) {
+
+        if (text == null) {
+            return "";
         }
 
-        text = text.toLowerCase();
-        pattern = pattern.toLowerCase();
+        return text.toLowerCase().trim();
+    }
+
+
+    // =========================================================
+    // KMP - KNUTH MORRIS PRATT
+    // =========================================================
+
+    public static boolean kmpSearch(String text, String pattern) {
+
+        text = normalize(text);
+        pattern = normalize(pattern);
 
         if (pattern.isEmpty()) {
             return true;
+        }
+
+        if (text.isEmpty()) {
+            return false;
+        }
+
+        if (pattern.length() > text.length()) {
+            return false;
         }
 
         int[] lps = buildLPS(pattern);
@@ -27,6 +43,7 @@ public class StringAlgorithms {
         while (i < text.length()) {
 
             if (text.charAt(i) == pattern.charAt(j)) {
+
                 i++;
                 j++;
 
@@ -34,21 +51,24 @@ public class StringAlgorithms {
                     return true;
                 }
 
-            } else if (j > 0) {
-                j = lps[j - 1];
-
             } else {
-                i++;
+
+                if (j != 0) {
+                    j = lps[j - 1];
+                } else {
+                    i++;
+                }
             }
         }
 
         return false;
     }
 
-    /*
-     * LPS = Longest Prefix Suffix.
-     * This is the preprocessing step used by KMP.
-     */
+
+    // =========================================================
+    // BUILD LPS ARRAY FOR KMP
+    // =========================================================
+
     private static int[] buildLPS(String pattern) {
 
         int[] lps = new int[pattern.length()];
@@ -59,76 +79,98 @@ public class StringAlgorithms {
         while (i < pattern.length()) {
 
             if (pattern.charAt(i) == pattern.charAt(length)) {
+
                 length++;
                 lps[i] = length;
                 i++;
 
-            } else if (length > 0) {
-                length = lps[length - 1];
-
             } else {
-                lps[i] = 0;
-                i++;
+
+                if (length != 0) {
+
+                    length = lps[length - 1];
+
+                } else {
+
+                    lps[i] = 0;
+                    i++;
+                }
             }
         }
 
         return lps;
     }
 
-    /*
-     * CO2 ALGORITHM 2: RABIN-KARP
-     * Uses rolling hash for keyword searching.
-     *
-     * The hash match is followed by direct verification to avoid
-     * false positives caused by hash collisions.
-     */
-    public static boolean rabinKarpContains(String text, String pattern) {
 
-        if (text == null || pattern == null) {
+    // =========================================================
+    // RABIN-KARP
+    // =========================================================
+
+    public static boolean rabinKarpSearch(
+            String text,
+            String pattern) {
+
+        text = normalize(text);
+        pattern = normalize(pattern);
+
+        if (pattern.isEmpty()) {
+            return true;
+        }
+
+        if (text.isEmpty()) {
             return false;
         }
 
-        text = text.toLowerCase();
-        pattern = pattern.toLowerCase();
-
         int n = text.length();
         int m = pattern.length();
-
-        if (m == 0) {
-            return true;
-        }
 
         if (m > n) {
             return false;
         }
 
-        final long BASE = 256;
-        final long MOD = 1_000_000_007L;
+        final int BASE = 256;
+        final long PRIME = 1000000007L;
 
         long patternHash = 0;
-        long windowHash = 0;
+        long textHash = 0;
+
         long highestPower = 1;
 
+        // BASE^(m-1)
         for (int i = 0; i < m - 1; i++) {
-            highestPower = (highestPower * BASE) % MOD;
+
+            highestPower =
+                    (highestPower * BASE) % PRIME;
         }
 
+        // Calculate initial hash
         for (int i = 0; i < m; i++) {
-            patternHash =
-                    (patternHash * BASE + pattern.charAt(i)) % MOD;
 
-            windowHash =
-                    (windowHash * BASE + text.charAt(i)) % MOD;
+            patternHash =
+                    (BASE * patternHash
+                            + pattern.charAt(i))
+                            % PRIME;
+
+            textHash =
+                    (BASE * textHash
+                            + text.charAt(i))
+                            % PRIME;
         }
 
+        // Slide the pattern across the text
         for (int i = 0; i <= n - m; i++) {
 
-            if (patternHash == windowHash) {
+            // Hash values are equal
+            if (patternHash == textHash) {
 
                 boolean match = true;
 
+                // Verify characters
                 for (int j = 0; j < m; j++) {
-                    if (text.charAt(i + j) != pattern.charAt(j)) {
+
+                    if (text.charAt(i + j)
+                            != pattern.charAt(j)) {
+
                         match = false;
                         break;
                     }
@@ -139,53 +181,53 @@ public class StringAlgorithms {
                 }
             }
 
+            // Calculate next window hash
             if (i < n - m) {
 
-                windowHash =
-                        (windowHash
-                                - text.charAt(i) * highestPower) % MOD;
-
-                if (windowHash < 0) {
-                    windowHash += MOD;
-                }
-
-                windowHash =
-                        (windowHash * BASE
-                                + text.charAt(i + m)) % MOD;
+                textHash =
+                        (BASE *
+                                (textHash
+                                        - (text.charAt(i)
+                                        * highestPower) % PRIME
+                                        + PRIME)
+                                + text.charAt(i + m))
+                                % PRIME;
             }
         }
 
         return false;
     }
 
-    /*
-     * CO2 ALGORITHM 3: Z-FUNCTION
-     * Searches for a pattern by building:
-     *
-     * pattern + separator + text
-     *
-     * If a Z-value equals the pattern length, the pattern occurs.
-     */
-    public static boolean zFunctionContains(String text, String pattern) {
 
-        if (text == null || pattern == null) {
-            return false;
-        }
+    // =========================================================
+    // Z-FUNCTION SEARCH
+    // =========================================================
 
-        text = text.toLowerCase();
-        pattern = pattern.toLowerCase();
+    public static boolean zFunctionSearch(
+            String text,
+            String pattern) {
+
+        text = normalize(text);
+        pattern = normalize(pattern);
 
         if (pattern.isEmpty()) {
             return true;
         }
 
-        // Use a separator that is not expected in recipe text.
-        String combined = pattern + "\u0000" + text;
+        if (text.isEmpty()) {
+            return false;
+        }
 
-        int[] z = buildZArray(combined);
+        String combined =
+                pattern + "#" + text;
 
-        for (int i = pattern.length() + 1; i < combined.length(); i++) {
-            if (z[i] == pattern.length()) {
+        int[] z = calculateZ(combined);
+
+        int patternLength = pattern.length();
+
+        for (int i = 0; i < z.length; i++) {
+
+            if (z[i] == patternLength) {
                 return true;
             }
         }
@@ -193,9 +235,15 @@ public class StringAlgorithms {
         return false;
     }
 
-    private static int[] buildZArray(String s) {
 
-        int n = s.length();
+    // =========================================================
+    // CALCULATE Z ARRAY
+    // =========================================================
+
+    private static int[] calculateZ(String text) {
+
+        int n = text.length();
+
         int[] z = new int[n];
 
         int left = 0;
@@ -204,20 +252,96 @@ public class StringAlgorithms {
         for (int i = 1; i < n; i++) {
 
             if (i <= right) {
-                z[i] = Math.min(right - i + 1, z[i - left]);
+
+                z[i] =
+                        Math.min(
+                                right - i + 1,
+                                z[i - left]
+                        );
             }
 
-            while (i + z[i] < n &&
-                   s.charAt(z[i]) == s.charAt(i + z[i])) {
+            while (
+                    i + z[i] < n &&
+                    text.charAt(z[i])
+                            == text.charAt(i + z[i])
+            ) {
+
                 z[i]++;
             }
 
             if (i + z[i] - 1 > right) {
+
                 left = i;
                 right = i + z[i] - 1;
             }
         }
 
         return z;
+    }
+
+
+    // =========================================================
+    // EDIT DISTANCE
+    // WAGNER-FISCHER DYNAMIC PROGRAMMING
+    // =========================================================
+
+    public static int editDistance(
+            String first,
+            String second) {
+
+        first = normalize(first);
+        second = normalize(second);
+
+        int m = first.length();
+        int n = second.length();
+
+        // DP table
+        int[][] dp = new int[m + 1][n + 1];
+
+        // Convert first string to empty string
+        for (int i = 0; i <= m; i++) {
+            dp[i][0] = i;
+        }
+
+        // Convert empty string to second string
+        for (int j = 0; j <= n; j++) {
+            dp[0][j] = j;
+        }
+
+        // Fill DP table
+        for (int i = 1; i <= m; i++) {
+
+            for (int j = 1; j <= n; j++) {
+
+                if (first.charAt(i - 1)
+                        == second.charAt(j - 1)) {
+
+                    dp[i][j] =
+                            dp[i - 1][j - 1];
+
+                } else {
+
+                    int insertion =
+                            dp[i][j - 1];
+
+                    int deletion =
+                            dp[i - 1][j];
+
+                    int substitution =
+                            dp[i - 1][j - 1];
+
+                    dp[i][j] =
+                            1 + Math.min(
+                                    insertion,
+                                    Math.min(
+                                            deletion,
+                                            substitution
+                                    )
+                            );
+                }
+            }
+        }
+
+        return dp[m][n];
     }
 }

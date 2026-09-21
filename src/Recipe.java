@@ -1,24 +1,25 @@
+import java.util.ArrayList;
+
 public class Recipe {
 
     private int recipeId;
     private String recipeName;
     private String cuisine;
     private String category;
-    private int cookingTime;
-    private double budget;
-    private double rating;
+    private ArrayList<String> steps;
 
-    public Recipe(int recipeId, String recipeName, String cuisine,
-                  String category, int cookingTime,
-                  double budget, double rating) {
+    public Recipe(
+            int recipeId,
+            String recipeName,
+            String cuisine,
+            String category,
+            ArrayList<String> steps) {
 
         this.recipeId = recipeId;
         this.recipeName = recipeName;
         this.cuisine = cuisine;
         this.category = category;
-        this.cookingTime = cookingTime;
-        this.budget = budget;
-        this.rating = rating;
+        this.steps = steps;
     }
 
     public int getRecipeId() {
@@ -37,21 +38,65 @@ public class Recipe {
         return category;
     }
 
-    public int getCookingTime() {
-        return cookingTime;
+    public ArrayList<String> getSteps() {
+        return steps;
     }
 
-    public double getBudget() {
-        return budget;
-    }
+    // =====================================================
+    // DISPLAY COMPLETE RECIPE
+    // =====================================================
 
-    public double getRating() {
-        return rating;
-    }
+    public void displayRecipe() {
 
-    // Searchable text used by Rabin-Karp.
-    // Phase 1 dataset currently has no ingredients column.
-    public String getSearchableText() {
-        return recipeName + " " + cuisine + " " + category;
+        System.out.println();
+        System.out.println(
+            "========================================"
+        );
+
+        System.out.println(
+            "             RECIPE FOUND"
+        );
+
+        System.out.println(
+            "========================================"
+        );
+
+        System.out.println(
+            "Recipe ID : " + recipeId
+        );
+
+        System.out.println(
+            "Recipe    : " + recipeName
+        );
+
+        System.out.println(
+            "Cuisine   : " + cuisine
+        );
+
+        System.out.println(
+            "Category  : " + category
+        );
+
+        System.out.println();
+
+        System.out.println(
+            "PREPARATION STEPS:"
+        );
+
+        System.out.println(
+            "----------------------------------------"
+        );
+
+        // Display every preparation step
+        for (int i = 0; i < steps.size(); i++) {
+
+            System.out.println(
+                (i + 1) + ". " + steps.get(i)
+            );
+        }
+
+        System.out.println(
+            "========================================"
+        );
     }
 }
