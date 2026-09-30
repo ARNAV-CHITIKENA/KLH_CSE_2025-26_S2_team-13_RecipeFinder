@@ -7,308 +7,161 @@ import java.util.Comparator;
 
 public class RecipeReader {
 
-    // =========================================================
-    // LOAD ALL RECIPES
-    // =========================================================
-
     public static ArrayList<Recipe> loadRecipes() {
 
-        ArrayList<Recipe> recipes =
-                new ArrayList<>();
-
-        File dataFolder =
-                new File("data");
+        ArrayList<Recipe> recipes = new ArrayList<>();
+        File dataFolder = new File("data");
 
         System.out.println();
         System.out.println("========================================");
         System.out.println("          LOADING RECIPE DATA");
         System.out.println("========================================");
 
-        if (!dataFolder.exists()
-                || !dataFolder.isDirectory()) {
-
+        if (!dataFolder.exists() || !dataFolder.isDirectory()) {
             System.out.println();
-            System.out.println(
-                    "Data folder not found: "
-                            + dataFolder.getAbsolutePath()
-            );
-
+            System.out.println("Data folder not found: " + dataFolder.getAbsolutePath());
             return recipes;
         }
 
-
-        // =====================================================
-        // FIND ALL RECIPE TEXT FILES
-        // =====================================================
-
-        File[] files =
-                dataFolder.listFiles(
-                        (directory, filename) -> {
-
-                            String lowerName =
-                                    filename.toLowerCase();
-
-                            return lowerName.startsWith("recipes_")
-                                    && lowerName.endsWith(".txt");
-                        }
-                );
-
+        File[] files = dataFolder.listFiles((directory, filename) -> {
+            String lowerName = filename.toLowerCase();
+            return lowerName.startsWith("recipes_") && lowerName.endsWith(".txt");
+        });
 
         if (files == null || files.length == 0) {
-
             System.out.println();
-            System.out.println(
-                    "No recipe text files found in data folder."
-            );
-
+            System.out.println("No recipe text files found in data folder.");
             return recipes;
         }
 
-
-        // =====================================================
-        // SORT FILES
-        // =====================================================
-
-        Arrays.sort(
-                files,
-                Comparator.comparing(File::getName)
-        );
-
-
-        // =====================================================
-        // READ EACH FILE
-        // =====================================================
+        Arrays.sort(files, Comparator.comparing(File::getName));
 
         for (File file : files) {
-
-            System.out.println(
-                    "Reading: "
-                            + file.getName()
-            );
-
-            readFile(
-                    file,
-                    recipes
-            );
+            System.out.println("Reading: " + file.getName());
+            readFile(file, recipes);
         }
-
-
-        // =====================================================
-        // FINAL RESULT
-        // =====================================================
 
         System.out.println();
         System.out.println("========================================");
-        System.out.println(
-                "Total recipes loaded: "
-                        + recipes.size()
-        );
+        System.out.println("Total recipes loaded: " + recipes.size());
         System.out.println("========================================");
 
         return recipes;
     }
 
+    private static void readFile(File file, ArrayList<Recipe> recipes) {
 
-    // =========================================================
-    // READ ONE FILE
-    // =========================================================
-
-    private static void readFile(
-            File file,
-            ArrayList<Recipe> recipes) {
-
-        try (
-                BufferedReader reader =
-                        new BufferedReader(
-                                new FileReader(file)
-                        )
-        ) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
 
             String line;
-
             int recipeId = 0;
             String recipeName = "";
             String cuisine = "";
             String category = "";
-
-            ArrayList<String> steps =
-                    new ArrayList<>();
-
+            int cost = -1;
+            int value = -1;
+            ArrayList<String> steps = new ArrayList<>();
 
             while ((line = reader.readLine()) != null) {
 
                 line = line.trim();
 
-
-                // =================================================
-                // NEW RECIPE
-                // =================================================
-
                 if (line.startsWith("RECIPE ID:")) {
 
-                    // Save previous recipe
-                    if (recipeId != 0
-                            && !recipeName.isEmpty()) {
+                    addRecipeIfValid(recipes, recipeId, recipeName, cuisine,
+                            category, steps, cost, value);
 
-                        recipes.add(
-                                new Recipe(
-                                        recipeId,
-                                        recipeName,
-                                        cuisine,
-                                        category,
-                                        new ArrayList<>(steps)
-                                )
-                        );
-                    }
-
-
-                    // Reset values
                     recipeId = 0;
                     recipeName = "";
                     cuisine = "";
                     category = "";
-
+                    cost = -1;
+                    value = -1;
                     steps.clear();
 
-
-                    // Read recipe ID
                     try {
-
-                        String idText =
-                                line.substring(
-                                        "RECIPE ID:".length()
-                                ).trim();
-
-                        recipeId =
-                                Integer.parseInt(idText);
-
+                        String idText = line.substring("RECIPE ID:".length()).trim();
+                        recipeId = Integer.parseInt(idText);
                     } catch (NumberFormatException e) {
-
-                        System.out.println(
-                                "Invalid Recipe ID: "
-                                        + line
-                        );
+                        System.out.println("Invalid Recipe ID: " + line);
                     }
                 }
 
-
-                // =================================================
-                // RECIPE NAME
-                // =================================================
-
                 else if (line.startsWith("RECIPE NAME:")) {
-
-                    recipeName =
-                            line.substring(
-                                    "RECIPE NAME:".length()
-                            ).trim();
+                    recipeName = line.substring("RECIPE NAME:".length()).trim();
                 }
 
-
-                // =================================================
-                // REGION / CUISINE
-                // =================================================
-
-                else if (
-                        line.startsWith(
-                                "REGION / CUISINE:"
-                        )
-                ) {
-
-                    cuisine =
-                            line.substring(
-                                    "REGION / CUISINE:".length()
-                            ).trim();
+                else if (line.startsWith("REGION / CUISINE:")) {
+                    cuisine = line.substring("REGION / CUISINE:".length()).trim();
                 }
-
-
-                // =================================================
-                // CATEGORY
-                // =================================================
 
                 else if (line.startsWith("CATEGORY:")) {
-
-                    category =
-                            line.substring(
-                                    "CATEGORY:".length()
-                            ).trim();
+                    category = line.substring("CATEGORY:".length()).trim();
                 }
 
+                else if (line.startsWith("COST:")) {
+                    cost = parseNonNegativeInteger(line.substring("COST:".length()).trim(), "COST");
+                }
 
-                // =================================================
-                // PREPARATION STEPS
-                // =================================================
+                else if (line.startsWith("VALUE:")) {
+                    value = parseNonNegativeInteger(line.substring("VALUE:".length()).trim(), "VALUE");
+                }
 
-                else if (
-                        line.startsWith(
-                                "PREPARATION STEPS:"
-                        )
-                ) {
-
-                    // Preparation steps follow
+                else if (line.startsWith("PREPARATION STEPS:")) {
                     continue;
                 }
 
-
-                // =================================================
-                // RECIPE STEP
-                // =================================================
-
-                else if (
-                        line.matches(
-                                "\\d+\\.\\s+.*"
-                        )
-                ) {
-
+                else if (line.matches("\\d+\\.\\s+.*")) {
                     steps.add(line);
                 }
 
-
-                // =================================================
-                // STOP READING PROJECT DESCRIPTION
-                // =================================================
-
-                else if (
-                        line.startsWith(
-                                "TEXT FILE STRUCTURE FOR JAVA IMPLEMENTATION"
-                        )
-                ) {
-
+                else if (line.startsWith("TEXT FILE STRUCTURE FOR JAVA IMPLEMENTATION")) {
                     break;
                 }
             }
 
-
-            // =====================================================
-            // SAVE LAST RECIPE
-            // =====================================================
-
-            if (recipeId != 0
-                    && !recipeName.isEmpty()) {
-
-                recipes.add(
-                        new Recipe(
-                                recipeId,
-                                recipeName,
-                                cuisine,
-                                category,
-                                new ArrayList<>(steps)
-                        )
-                );
-            }
+            addRecipeIfValid(recipes, recipeId, recipeName, cuisine,
+                    category, steps, cost, value);
 
         } catch (Exception e) {
-
             System.out.println();
-            System.out.println(
-                    "Error reading file: "
-                            + file.getName()
-            );
-
-            System.out.println(
-                    "Reason: "
-                            + e.getMessage()
-            );
+            System.out.println("Error reading file: " + file.getName());
+            System.out.println("Reason: " + e.getMessage());
         }
     }
-}   
+
+    private static int parseNonNegativeInteger(String text, String fieldName) {
+        try {
+            int number = Integer.parseInt(text);
+            if (number >= 0) {
+                return number;
+            }
+            System.out.println("Invalid " + fieldName + ": value cannot be negative.");
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid " + fieldName + ": " + text);
+        }
+        return -1;
+    }
+
+    private static void addRecipeIfValid(
+            ArrayList<Recipe> recipes,
+            int recipeId,
+            String recipeName,
+            String cuisine,
+            String category,
+            ArrayList<String> steps,
+            int cost,
+            int value) {
+
+        if (recipeId != 0 && !recipeName.isEmpty()) {
+            recipes.add(new Recipe(
+                    recipeId,
+                    recipeName,
+                    cuisine,
+                    category,
+                    new ArrayList<>(steps),
+                    cost,
+                    value));
+        }
+    }
+}

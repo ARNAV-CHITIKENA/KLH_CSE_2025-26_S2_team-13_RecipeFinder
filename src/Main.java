@@ -40,7 +40,8 @@ public class Main {
             System.out.println("========================================");
             System.out.println("1. Search Recipe");
             System.out.println("2. Max Flow");
-            System.out.println("3. Exit");
+            System.out.println("3. Knapsack FPTAS (CO5)");
+            System.out.println("4. Exit");
             System.out.println("========================================");
 
             System.out.print("Enter your choice: ");
@@ -89,7 +90,8 @@ public class Main {
                 System.out.println("3. Z-Function");
                 System.out.println("4. Edit Distance");
                 System.out.println("5. Compare All Algorithms");
-                System.out.println("6. Back to Main Menu");
+                System.out.println("6. Randomized QuickSort (CO6)");
+                System.out.println("7. Back to Main Menu");
                 System.out.println("========================================");
 
                 System.out.print("Enter algorithm choice: ");
@@ -154,6 +156,11 @@ public class Main {
 
                 else if (algorithmChoice.equals("6")) {
 
+                    runRandomizedQuickSort(recipes, query);
+                }
+
+                else if (algorithmChoice.equals("7")) {
+
                     continue;
                 }
 
@@ -183,6 +190,15 @@ public class Main {
             // =================================================
 
             else if (choice.equals("3")) {
+
+                runKnapsack(recipes, scanner);
+            }
+
+            // =================================================
+            // EXIT
+            // =================================================
+
+            else if (choice.equals("4")) {
 
                 System.out.println();
                 System.out.println("========================================");
@@ -943,6 +959,111 @@ public class Main {
         );
     }
 
+
+
+    // =========================================================
+    // CO6 - RANDOMIZED QUICKSORT SEARCH
+    // =========================================================
+
+    private static void runRandomizedQuickSort(
+            ArrayList<Recipe> recipes,
+            String query) {
+
+        System.out.println();
+        System.out.println("========================================");
+        System.out.println("       RANDOMIZED QUICKSORT");
+        System.out.println("========================================");
+
+        System.out.println(
+                "Search Query : " + query);
+
+        ArrayList<Recipe> matches =
+                new ArrayList<>();
+
+        long startTime = System.nanoTime();
+
+        for (Recipe recipe : recipes) {
+
+            if (StringAlgorithms.kmpSearch(
+                    recipe.getRecipeName(),
+                    query)) {
+
+                matches.add(recipe);
+            }
+        }
+
+        if (matches.isEmpty()) {
+
+            long endTime = System.nanoTime();
+
+            System.out.println();
+            System.out.println("No matching recipes found.");
+            System.out.println(
+                    "Execution Time : "
+                            + (endTime - startTime)
+                            + " ns");
+            return;
+        }
+
+        StringAlgorithms.randomizedQuickSort(
+                matches, 0, matches.size() - 1);
+
+        long endTime = System.nanoTime();
+
+        System.out.println();
+        System.out.println(
+                "Sorting Field : Recipe Name");
+
+        System.out.println(
+                "Algorithm     : Randomized QuickSort");
+
+        System.out.println(
+                "Matches Found : " + matches.size());
+
+        System.out.println();
+        System.out.println("Alphabetically Sorted Results:");
+        System.out.println("----------------------------------------");
+
+        for (int i = 0; i < matches.size(); i++) {
+
+            Recipe recipe = matches.get(i);
+
+            System.out.println(
+                    (i + 1) + ". "
+                            + recipe.getRecipeName()
+                            + " (ID: "
+                            + recipe.getRecipeId()
+                            + ")");
+        }
+
+        System.out.println("----------------------------------------");
+
+        long executionTime =
+                endTime - startTime;
+
+        System.out.println(
+                "Execution Time : "
+                        + executionTime + " ns");
+
+        System.out.println(
+                "Execution Time : "
+                        + (executionTime / 1_000_000.0)
+                        + " ms");
+
+        System.out.println("========================================");
+    }
+
+
+    // =========================================================
+    // CO5 - KNAPSACK FPTAS
+    // =========================================================
+
+    private static void runKnapsack(
+            ArrayList<Recipe> recipes,
+            Scanner scanner) {
+
+        Knapsack.run(recipes, scanner);
+    }
 
     // =========================================================
     // MAX FLOW DEMONSTRATION

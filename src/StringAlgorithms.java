@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class StringAlgorithms {
 
     // =========================================================
@@ -344,4 +346,64 @@ public class StringAlgorithms {
 
         return dp[m][n];
     }
+
+    // =========================================================
+    // CO6 - RANDOMIZED QUICKSORT
+    // =========================================================
+
+    public static void randomizedQuickSort(
+            ArrayList<Recipe> recipes,
+            int low,
+            int high) {
+
+        if (low < high) {
+            int pivotIndex = randomizedPartition(
+                    recipes, low, high);
+
+            randomizedQuickSort(
+                    recipes, low, pivotIndex - 1);
+
+            randomizedQuickSort(
+                    recipes, pivotIndex + 1, high);
+        }
+    }
+
+    private static int randomizedPartition(
+            ArrayList<Recipe> recipes,
+            int low,
+            int high) {
+
+        int randomIndex =
+                low + (int) (Math.random() * (high - low + 1));
+
+        Recipe temp = recipes.get(randomIndex);
+        recipes.set(randomIndex, recipes.get(high));
+        recipes.set(high, temp);
+
+        String pivot =
+                recipes.get(high).getRecipeName().toLowerCase();
+
+        int i = low - 1;
+
+        for (int j = low; j < high; j++) {
+
+            String current =
+                    recipes.get(j).getRecipeName().toLowerCase();
+
+            if (current.compareTo(pivot) <= 0) {
+                i++;
+
+                Recipe swap = recipes.get(i);
+                recipes.set(i, recipes.get(j));
+                recipes.set(j, swap);
+            }
+        }
+
+        Recipe swap = recipes.get(i + 1);
+        recipes.set(i + 1, recipes.get(high));
+        recipes.set(high, swap);
+
+        return i + 1;
+    }
+
 }
